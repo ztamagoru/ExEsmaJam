@@ -902,7 +902,7 @@
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
         <HotspotX>16</HotspotX>
-        <HotspotY>17</HotspotY>
+        <HotspotY>15</HotspotY>
         <ID>0</ID>
         <Image>16</Image>
         <Name xml:space="preserve">Walk to</Name>
@@ -914,10 +914,10 @@
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>16</HotspotX>
+        <HotspotY>15</HotspotY>
         <ID>1</ID>
-        <Image>0</Image>
+        <Image>18</Image>
         <Name xml:space="preserve">Look at</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -1558,6 +1558,21 @@
                   <Sprite Slot="1" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
                     <Source>
                       <FileName>C:\Users\marus\Downloads\Majo_contorno_gris2 (1).png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="18" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\marus\Downloads\Hermana_Jesica (1).png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
                       <ImportHeight>32</ImportHeight>
