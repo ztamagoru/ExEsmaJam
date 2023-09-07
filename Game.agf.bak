@@ -653,8 +653,12 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
-            <Description IsNull="True" />
+            <Description xml:space="preserve">main game</Description>
             <Number>1</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description xml:space="preserve">start menu</Description>
+            <Number>2</Number>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -864,7 +868,7 @@
             <SpeechView>0</SpeechView>
             <StartX>84</StartX>
             <StartY>199</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>2</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1570,7 +1574,23 @@
               </SpriteFolder>
               <SpriteFolder Name="ui">
                 <SubFolders />
-                <Sprites />
+                <Sprites>
+                  <Sprite Slot="17" Width="128" Height="66" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\marus\Downloads\start.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>66</ImportHeight>
+                      <ImportWidth>128</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                </Sprites>
               </SpriteFolder>
               <SpriteFolder Name="cursors">
                 <SubFolders />
@@ -1677,12 +1697,29 @@
               </Loop>
             </Loops>
           </View>
+          <View>
+            <ID>2</ID>
+            <Name>VIEW2</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
         </Views>
       </ViewFolder>
     </Views>
-    <DeletedViews>
-      <ViewID>2</ViewID>
-    </DeletedViews>
+    <DeletedViews />
     <Scripts>
       <ScriptFolder Name="Main">
         <SubFolders />

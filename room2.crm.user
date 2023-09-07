@@ -5,7 +5,7 @@
     <SelectedItem BreadcrumbPath="Room" />
     <Layers>
       <Edges>
-        <Visible>True</Visible>
+        <Visible>False</Visible>
         <Locked>False</Locked>
         <Items>
           <Item ID="Bottom">
@@ -27,7 +27,7 @@
         </Items>
       </Edges>
       <Characters>
-        <Visible>True</Visible>
+        <Visible>False</Visible>
         <Locked>False</Locked>
         <Items>
           <Item ID="0000">
@@ -44,14 +44,10 @@
             <Locked>False</Locked>
             <Visible>True</Visible>
           </Item>
-          <Item ID="0001">
-            <Locked>False</Locked>
-            <Visible>True</Visible>
-          </Item>
         </Items>
       </Objects>
       <Hotspots>
-        <Visible>False</Visible>
+        <Visible>True</Visible>
         <Locked>False</Locked>
         <Items>
           <Item ID="0000">
@@ -257,7 +253,7 @@
         </Items>
       </Hotspots>
       <WalkableAreas>
-        <Visible>True</Visible>
+        <Visible>False</Visible>
         <Locked>False</Locked>
         <Items>
           <Item ID="0000">
