@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>1</AudioIndexer>
+      <AudioIndexer>2</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
@@ -672,6 +672,14 @@
             <Description>studio</Description>
             <Number>5</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>intro</Description>
+            <Number>6</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>ending</Description>
+            <Number>7</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -711,6 +719,24 @@
             <ID>2</ID>
             <Image>0</Image>
             <Name>iLibreta</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">New inventory item</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>3</ID>
+            <Image>40</Image>
+            <Name>iZapatos</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
@@ -917,7 +943,7 @@
             <SpeechView>3</SpeechView>
             <StartX>79</StartX>
             <StartY>185</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>2</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -953,7 +979,7 @@
         <HotspotX>9</HotspotX>
         <HotspotY>3</HotspotY>
         <ID>0</ID>
-        <Image>19</Image>
+        <Image>47</Image>
         <Name xml:space="preserve">Walk to</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -964,9 +990,9 @@
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
         <HotspotX>13</HotspotX>
-        <HotspotY>7</HotspotY>
+        <HotspotY>8</HotspotY>
         <ID>1</ID>
-        <Image>20</Image>
+        <Image>46</Image>
         <Name xml:space="preserve">Look at</Name>
         <StandardMode>True</StandardMode>
         <View>0</View>
@@ -2124,6 +2150,36 @@
                       <ImportAlphaChannel>True</ImportAlphaChannel>
                     </Source>
                   </Sprite>
+                  <Sprite Slot="46" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\marus\Downloads\manito.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
+                  <Sprite Slot="47" Width="32" Height="32" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                    <Source>
+                      <FileName>C:\Users\marus\Downloads\cursor flecha.png</FileName>
+                      <OffsetX>0</OffsetX>
+                      <OffsetY>0</OffsetY>
+                      <ImportHeight>32</ImportHeight>
+                      <ImportWidth>32</ImportWidth>
+                      <ImportAsTile>False</ImportAsTile>
+                      <Frame>0</Frame>
+                      <RemapToGamePalette>False</RemapToGamePalette>
+                      <RemapToRoomPalette>False</RemapToRoomPalette>
+                      <ImportMethod>LeaveAsIs</ImportMethod>
+                      <ImportAlphaChannel>True</ImportAlphaChannel>
+                    </Source>
+                  </Sprite>
                 </Sprites>
               </SpriteFolder>
             </SubFolders>
@@ -2391,15 +2447,15 @@
               <AudioClip>
                 <BundlingType>InSeparateVOX</BundlingType>
                 <DefaultPriority>Inherit</DefaultPriority>
-                <DefaultRepeat>True</DefaultRepeat>
-                <DefaultVolume>25</DefaultVolume>
-                <FileType>WAV</FileType>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>OGG</FileType>
                 <ID>0</ID>
-                <Index>1</Index>
+                <Index>2</Index>
                 <ScriptName>aMAIN_THEME</ScriptName>
-                <SourceFileName>C:\Users\marus\Downloads\MAIN_THEME.wav</SourceFileName>
+                <SourceFileName xml:space="preserve">C:\Users\marus\Downloads\TEMA PRINCIPAL-JAM-EX-ESMA.ogg</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2023-09-10 07:29:52Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2023-09-10 15:27:00Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
