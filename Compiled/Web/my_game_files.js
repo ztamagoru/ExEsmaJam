@@ -1,0 +1,1 @@
+var gamefiles = ['.placeholder', 'audio.vox', 'Ecos.ags', 'acsetup.cfg'];

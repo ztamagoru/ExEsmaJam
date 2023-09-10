@@ -4,7 +4,7 @@
   <Component Name="SourceControl" />
   <WorkspaceState>
     <LastBuildConfiguration>Debug</LastBuildConfiguration>
-    <LastBuildGameFileName>_Debug=Ecos,DataFile=Ecos,Windows=Ecos,</LastBuildGameFileName>
+    <LastBuildGameFileName>_Debug=Ecos,DataFile=Ecos,Windows=Ecos,Web=Ecos,</LastBuildGameFileName>
     <RequiresRebuild>False</RequiresRebuild>
   </WorkspaceState>
 </AGSEditorUserData>

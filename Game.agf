@@ -16,7 +16,7 @@
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <BuildTargets>Windows</BuildTargets>
+      <BuildTargets>Web</BuildTargets>
       <ClipGUIControls>True</ClipGUIControls>
       <ColorDepth>TrueColor</ColorDepth>
       <CompressSpritesType>None</CompressSpritesType>
@@ -687,12 +687,30 @@
         <InventoryItems>
           <InventoryItem>
             <CursorImage>0</CursorImage>
-            <Description xml:space="preserve">New inventory item</Description>
+            <Description xml:space="preserve">Autito de juguete</Description>
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <ID>1</ID>
+            <Image>45</Image>
+            <Name>iAutito</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>0</CursorImage>
+            <Description xml:space="preserve">New inventory item</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>2</ID>
             <Image>0</Image>
-            <Name>iInvItem1</Name>
+            <Name>iLibreta</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
@@ -897,9 +915,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>16904</SpeechColor>
             <SpeechView>3</SpeechView>
-            <StartX>84</StartX>
-            <StartY>199</StartY>
-            <StartingRoom>2</StartingRoom>
+            <StartX>79</StartX>
+            <StartY>185</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1389,7 +1407,18 @@
       <PaletteEntry Index="255" Type="Background" Red="120" Green="120" Blue="120" />
     </Palette>
     <GlobalVariables>
-      <Variables />
+      <Variables>
+        <GlobalVariable>
+          <DefaultValue>true</DefaultValue>
+          <Name>FirstTime</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <DefaultValue>0</DefaultValue>
+          <Name>Puntaje</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+      </Variables>
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
@@ -2370,7 +2399,7 @@
                 <ScriptName>aMAIN_THEME</ScriptName>
                 <SourceFileName>C:\Users\marus\Downloads\MAIN_THEME.wav</SourceFileName>
                 <Type>2</Type>
-                <FileLastModifiedDate>2023-09-10 04:38:09Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2023-09-10 07:29:52Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
